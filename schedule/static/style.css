@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(59, 59, 59);
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.nav h1:hover {
+    color: cyan;
+    cursor: pointer;
+    transition: linear .1s;
+}

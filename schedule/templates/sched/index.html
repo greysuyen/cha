@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisbuk</title>
+    <link rel="icon" href="{% static 'photos/facebook.jpg' %}"/>
+    <link rel="stylesheet" href="{% static 'style.css' %}"/>
+</head>
+<body>
+    <div class="nav">
+        {% if sched %}
+        <h1>The store is closed</h1>
+        {% else %}
+        <h1>The store is open</h1>
+        {% endif %}
+    </div>
+</body>
+</html>
