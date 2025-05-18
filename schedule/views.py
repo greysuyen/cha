@@ -8,5 +8,3 @@ def index(request):
         "sched":(0 <= hour <= 6) or (17 <= hour <= 23)
         
     })
-
-print ("hi")
